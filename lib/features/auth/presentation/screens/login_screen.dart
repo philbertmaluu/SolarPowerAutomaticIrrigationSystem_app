@@ -137,6 +137,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 ElevatedButton(
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
+
+
+                      //api calls to fetch current auth user 
                       // TODO: Implement login logic
                       Navigator.pushReplacementNamed(context, '/home');
                     }
